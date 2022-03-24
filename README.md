@@ -1,26 +1,5 @@
-# Express Redis Docker app
+# Assignment 2
 
-Requirements: [Docker Community Edition](https://www.docker.com/community-edition)
+Start by typing docker-compose up
 
-To start the app run: `docker-compose up`.
-
-It will then be started on port 3000.
-
-# Endpoints
-
-## Hello World
-
-```sh
-curl http://localhost:3000
-```
-
-## Storing Data
-```sh
-curl http://localhost:3000/store/my-key\?some\=value\&some-other\=other-value
-```
-
-## Fetching Data
-
-```sh
-curl http://localhost:3000/my-key
-```
+I chose REDIS Lists as my data structure for this application
